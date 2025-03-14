@@ -1,7 +1,7 @@
 import './styles.css';
 
 export default function Contato() {
-  return <div className="contatos">
+  return <div className="flex w-screen h-[75vh] items-center">
     <div className="entrar_contato">
       <div className="titulo">ENTRE EM CONTATO</div>
       <div className="linha"></div>

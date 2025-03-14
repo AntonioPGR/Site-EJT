@@ -4,8 +4,6 @@
 
 @theme {
   --color-azul: #162E50;
-}
-
-@theme {
-  --color-mint-600: #000;
+  --color-amarelo: #FFD700;
+  --color-cinza: #F1F1F1;
 }
