@@ -6,7 +6,8 @@ import { MdDarkMode, MdLightMode } from "react-icons/md";
 const links = [
   { href: "#sobre", label: "SOBRE NÓS" },
   { href: "#servicos", label: "SERVIÇOS" },
-  { href: "#contato", label: "CONTATO" },
+  { href: "#galeria", label: "GALERIA" },
+  { href: "#contato", label: "CONTATOS" },
 ]
 
 export default function Header(){

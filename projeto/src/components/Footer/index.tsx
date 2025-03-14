@@ -12,7 +12,12 @@ export default function Footer(){
     dark:bg-azul
     gap-2
   ">
-    {
+    <div
+      className="
+        dark:bg-branco
+        p-2
+      "
+    >
       <Image 
         src="/logo_longa/normal.png" 
         alt="Empresa junior" 
@@ -23,7 +28,7 @@ export default function Footer(){
           aspect-[225.06 / 64.60]
         "
       />
-    }
+    </div>
     <p
       className="
         text-lg
