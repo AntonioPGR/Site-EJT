@@ -3,20 +3,9 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-mint-500: #fff;
+  --color-azul: #162E50;
 }
 
 @theme {
   --color-mint-600: #000;
-}
-:root {
-  --bg: white;
-  --text: black;
-  --primary: #3b82f6;
-}
-
-[data-theme="dark"] {
-  --bg: #111827;
-  --text: white;
-  --primary: #1e40af;
 }
