@@ -1,38 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
-        
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 50px;
-            background-color: #ffffff;
-        }
-
-        .header img {
-            width: 100.167px;
-            aspect-ratio: 100.17 / 100.00;
-        }
-
-        .nav-menu {
-            display: flex;
-            gap: 30px;
-        }
-
-        .nav-menu a {
-            color: #162E50;
-            font-family: "Open Sans", sans-serif;
-            font-size: 18px;
-            font-weight: 400;
-            text-decoration: none;
-            text-transform: uppercase;
-            transition: 0.3s;
-        }
-
-        .nav-menu a:hover {
-            color: #000000;
-        }
-
         .footer {
             display: flex;
             justify-content: space-between;
@@ -215,8 +182,4 @@
 
         .redes-sociais-icones a:hover {
             color: #000000;
-        }
-
-        p {
-            text-align: justify;
         }

@@ -19,9 +19,16 @@ export default function ServicosOferecidos() {
   };
 
   return (
-    <section className="py-6 px-16 bg-cinza-claro flex flex-col gap-6">
+    <section className="
+      py-6 px-16 
+      bg-branco
+      dark:bg-azul 
+      flex 
+      flex-col 
+      gap-6
+    ">
       <div>
-        <h2 className="text-azul dark:text-amarelo text-4xl font-bold uppercase border-b-4 border-amarelo">
+        <h2 className="text-azul dark:text-branco text-4xl font-bold uppercase border-b-4 border-amarelo">
           Serviços Oferecidos:
         </h2>
       </div>
