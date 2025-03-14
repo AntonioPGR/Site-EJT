@@ -47,17 +47,19 @@ export default function Galeria() {
           style={{ scrollBehavior: "smooth" }}
         >
           {Imagens.map((image, index) => (
-            <div className="
-              relative 
-              group
-              w-[450px]
-              h-[253.13px]
-              flex-none
-            ">
+            <div 
+              key={index}
+              className="
+                relative 
+                group
+                w-[450px]
+                h-[253.13px]
+                flex-none
+              "
+            >
               <Image 
                 src={image.image_url}
                 alt={image.alt}
-                key={index}
                 width={450} 
                 height={253.13}
                 className="
